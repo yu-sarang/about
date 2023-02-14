@@ -50,6 +50,9 @@ body{
     text-align: center;
     padding-top: 35px;
 }
+.logo img{
+    width: 13%;
+}
 .util{
     position: absolute;
     top: 20px;
