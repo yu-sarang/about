@@ -34,46 +34,62 @@
     font-weight: normal;
     font-style: normal;
 }
+* {
+    margin: 0;
+    padding: 0;
+}
 
-* {margin: 0;padding: 0;}
-ul,ol {list-style: none;}
-a {text-decoration: none;color: #333;}
+ul,
+ol {
+    list-style: none;
+}
 
-body{
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+body {
     font-family: "맑은고딕";
     font-size: 14px;
     line-height: 24px;
-    color: #333;
+    color: #505050;
     min-width: 1320px;
 }
+
 /*header*/
-#header_wrap{
+#header_wrap {
     margin: 0 auto;
 }
-#header{
+
+#header {
     width: 1200px;
     margin: 0 auto;
     height: 100px;
     position: relative;
 }
-.logo{
+
+.logo {
     text-align: center;
     padding-top: 35px;
 }
 .logo img{
     width: 13%;
 }
-.util{
+.util {
     position: absolute;
     top: 20px;
     right: 0;
 }
-.util li{
+
+.util li {
     float: left;
 }
-.util li a{
+
+.util li a {
     margin-left: 15px;
 }
+
 /*gnb*/
 #gnb_wrap{
     width: 780px;
@@ -113,6 +129,7 @@ body{
 }
 .gnb li:hover .submenu{
     display: block;
+}
 /*banner*/
 #banner_wrap{
 	width: 100%;
